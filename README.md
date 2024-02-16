@@ -19,6 +19,9 @@ $ vagrant init hashicorp/bionic64 --box-version 1.0.282
 # Executando o ambiente criado
 $ vagrant up
 
+# Finalizando a maquina em execução
+$ vagrant halt
+
 # Verificando o status do ambiente criado
 $ vagrant status
 
