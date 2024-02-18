@@ -14,7 +14,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ vagrant -v
 
 # Inicializando arquivo padrão do vagrant
-$ vagrant init hashicorp/bionic64 --box-version 1.0.282
+$ vagrant init hashicorp/bionic64 --box-version 20230607.0.0
 
 # Executando o ambiente criado
 $ vagrant up
@@ -30,6 +30,18 @@ $ vagrant destroy -f
 
 # Recarrega a configuração da máquina
 $ vagrant reload
+
+# Visualizar as configurações ssh da maquina
+$ vagrant ssh-config
+
+# Conectando no ssh com a chave privada da maquina
+$ ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@192.168.0.24
+
+# Visualizar os serviços e suas respectivas portas
+$ netstat -tlpne
+
+# Gerando o hash de autenticação SSH
+$ ssh-keygen -t rsa -b 4096 -C {INFORME_UM_EMAIL}
 
 ```
 

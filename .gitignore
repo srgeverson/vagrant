@@ -1,20 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/git,linux,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=git,linux,windows
-
-### Git ###
-# Created by git for backups. To disable backups in Git:
-# $ git config --global mergetool.keepBackup false
-*.orig
-
-# Created by git when using merge tools for conflicts
-*.BACKUP.*
-*.BASE.*
-*.LOCAL.*
-*.REMOTE.*
-*_BACKUP_*.txt
-*_BASE_*.txt
-*_LOCAL_*.txt
-*_REMOTE_*.txt
+# Created by https://www.toptal.com/developers/gitignore/api/linux,windows,vagrant
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,windows,vagrant
 
 ### Linux ###
 *~
@@ -30,6 +15,16 @@
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -57,4 +52,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/git,linux,windows
+# End of https://www.toptal.com/developers/gitignore/api/linux,windows,vagrant
