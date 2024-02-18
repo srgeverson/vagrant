@@ -25,6 +25,9 @@ $ vagrant halt
 # Verificando o status do ambiente criado
 $ vagrant status
 
+# Destruir a maquina criada
+$ vagrant destroy -f
+
 ```
 
 ## 👨‍💻 Equipe de Desenvolvimento
