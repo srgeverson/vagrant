@@ -28,6 +28,9 @@ $ vagrant status
 # Destruir a maquina criada
 $ vagrant destroy -f
 
+# Recarrega a configuração da máquina
+$ vagrant reload
+
 ```
 
 ## 👨‍💻 Equipe de Desenvolvimento
