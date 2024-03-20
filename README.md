@@ -13,6 +13,9 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 # Verificando a versão do vagrant
 $ vagrant -v
 
+#
+$ vagrant plugin  install vagrant-disksize
+
 # Inicializando arquivo padrão do vagrant
 $ vagrant init hashicorp/bionic64 --box-version 20230607.0.0
 
